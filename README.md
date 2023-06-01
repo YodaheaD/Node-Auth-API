@@ -21,7 +21,7 @@
 - A JWT contains a: Header, Payload, and Signature.
 - Here is a diagram of how JWT communication functions:
 
-![Myimage](/jwt-auth/images/JWT_Comm.jpg)
+![Myimage](/images/JWT_Comm.jpg)
 
 
 ##### ExpressJS
@@ -33,13 +33,13 @@
 ### Testing the Project using Postman
 
 - Register user information to the endpoint '/api/register' using POST.
-![JWTEx1](/jwt-auth/images/Step1_JWT.jpg)
+![JWTEx1](/images/Step1_JWT.jpg)
 
 - After registration, get JWT data by POST-ing again with correct user credentials (email and password) to the '/api/login' endpoint.
-![JWTEx2](/jwt-auth/images/Step2_JWT.jpg)
+![JWTEx2](/images/Step2_JWT.jpg)
 
 - Then, add JWT data to the Header as 'Authorization' and it is now we can send a JWT authorized GET request to '/api/users'.
-![JWTEx3](/jwt-auth/images/Step3_JWT.jpg)
+![JWTEx3](/images/Step3_JWT.jpg)
 
 Here is the MockAPI.io API data contents:
-![Mockapi](/jwt-auth/images/MockAPI_Contents.jpg)
+![Mockapi](/images/MockAPI_Contents.jpg)
